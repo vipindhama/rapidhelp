@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_below="@+id/text_user_id_label"
+        android:textColor="@color/white"
+        android:textSize="@dimen/list_value_text_size"
+        android:text="Vipin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/primary_transparent_round_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_name_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_label_text_size"
+                    android:text="Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_name"
+                    android:layout_below="@+id/text_name_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_value_text_size"
+                    android:text="Vipin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_phone_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_label_text_size"
+                    android:text="Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_phone"
+                    android:layout_below="@+id/text_name_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_value_text_size"
+                    android:text="Vipin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_package_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_label_text_size"
+                    android:text="Package"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_package"
+                    android:layout_below="@+id/text_user_id_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_value_text_size"
+                    android:text="Gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_reg_date_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_label_text_size"
+                    android:text="Reg Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_reg_date"
+                    android:layout_below="@+id/text_name_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_value_text_size"
+                    android:text="Vipin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_provide_help_status_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_label_text_size"
+                    android:text="Provide Help Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_provide_help_status"
+                    android:layout_below="@+id/text_user_id_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_value_text_size"
+                    android:text="Vipin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_ph_date_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_label_text_size"
+                    android:text="Provide Help Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_ph_date"
+                    android:layout_below="@+id/text_user_id_label"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/list_value_text_size"
+                    android:text="Gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

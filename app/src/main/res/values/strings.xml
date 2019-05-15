@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Common. -->
+    <string name="app_name">Rapid Help</string>
+    <string name="action_settings">Settings</string>
+    <string name="url">http://rapidhelpgo.top</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!-- Error. -->
+    <string name="no_internet">Internet connection is not available.</string>
+    <string name="connection_error">There is some problem in connecting server.</string>
+    <string name="json_parser_error">Json parsing errror.</string>
+    <string name="full_name_required">Please enter full name.</string>
+    <string name="email_required">Please enter Email Id.</string>
+    <string name="user_required">Please enter User Id.</string>
+    <string name="mobile_required">Please enter Mobile.</string>
+    <string name="location_required">Please enter Location.</string>
+    <string name="password_required">Please enter Password.</string>
+    <string name="password_not_match">Password is not matching.</string>
+    <string name="valid_email">Please enter valid Email ID.</string>
+    <string name="accept_terms">Please accept Terms and Conditions.</string>
+    <string name="unable_to_load_data">Data is not available. Please contact Account manager.</string>
+
+    <!-- Login. -->
+    <string name="email_phone">Email/Phone</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="dont_have_account">Don\'t Have an Account?</string>
+    <string name="register_now">Register Now</string>
+
+    <!-- Register. -->
+    <string name="back">back</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="user_id">User ID</string>
+    <string name="mobile">Mobile</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="term_condition">Agree With Terms &amp; Conditions</string>
+    <string name="sponsor_label">If you have a sponsor, please provide his ID in the input below. Otherwise you can use the system\'s default SPONSOR ID: CN36459</string>
+    <string name="trans_hash">Company BTC Address: 1fgh34234hkjhjkhjhkjh2342kjh</string>
+
+    <!-- Profile. -->
+    <string name="profile_header">Please make sure all the details are filled below before proceeding ahead, All the best!!</string>
+
+    <!-- Create Ticket. -->
+    <string name="ticket_header">Get into trouble? Just write us the problem you are having and we will put every effort to solve the problem at you end!!!</string>
+
+    <!-- Register Pin. -->
+    <string name="pin_header_1">* Purchase minimum 30000 registration fund and get 10% extra in bonus.</string>
+    <string name="pin_header_2">* Registration fund will remitte at 8AM and 8PM in your wallet after successful BTC transaction.</string>
+
+    <!-- transfer_funds. -->
+    <string name="transfer_fund_header">You can transfer funds to other team members if you want, just use below form and provide required information to send the funds.</string>
+
+    <!-- Dialogs. -->
+    <string name="logging_user">Logging User</string>
+    <string name="creating_account">Creating Account</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- titles. -->
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_create_new_ticket">Create New Ticket</string>
+    <string name="title_activity_regsiter_pin">Request Registration Pin</string>
+    <string name="title_activity_transfer_fund">Transfer Funds To Team</string>
+</resources>
